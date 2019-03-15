@@ -1,0 +1,27 @@
+.navbar-toggler
+	border: none
+	&:before
+		color: #fff
+		content: 'MENU'
+		font-size: 16px
+		font-weight: 600
+		padding-right: 10px
+
+.navbar-dark .navbar-toggler-icon
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+
+.navbar-dark .navbar-nav .nav-link
+	color: #fff
+	line-height: 3em
+	text-align: center
+	transition: color .5s ease
+	&:hover
+		color: $pink
+
+// .navbar-dark .navbar-nav .nav-link
+// 	line-height: 3em
+// 	&:hover
+// 		color: $pink
+
+button:focus
+	outline: 1px dotted rgba(255,255,255, .5)
