@@ -18,6 +18,7 @@ module.exports = {
     "vue/html-indent": "off",
     "vue/require-v-for-key": "off",
     "vue/require-default-prop": "off",
-    "vue/singleline-html-element-content-newline": "off"
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/html-self-closing": "off"
   }
 }

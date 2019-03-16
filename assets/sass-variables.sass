@@ -1,5 +1,18 @@
 $pink: #c3136a
 $blue: #292e82
+$grey: #6b6b6b
 
 $sm: 575px
 $md: 767px
+$lg: 991px
+$xl: 1199px
+
+=keyframes($name)
+	@-webkit-keyframes #{$name}
+		@content
+	@-moz-keyframes #{$name}
+		@content
+	@-ms-keyframes #{$name}
+		@content
+	@keyframes #{$name}
+		@content

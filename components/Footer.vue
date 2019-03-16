@@ -42,7 +42,7 @@ footer
 	h1, a
 		color: #fff
 		text-decoration: none
-		font-size: .8em
+		font-size: 1em
 	a
 		font-weight: 300
 		transition: .3s ease

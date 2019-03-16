@@ -27,18 +27,15 @@
 	position: absolute
 	left: 0
 	bottom: 2em
+	margin-left: 15px
 
 p:nth-child(1)
-	font-size: 1.2em
+	font-size: 1.6em
 p:nth-child(2)
-	font-size: 2.5em
+	font-size: 3.3em
 	font-weight: 700
 	text-transform: uppercase
 p:nth-child(3)
-	font-size: 1.9em
+	font-size: 2.5em
 	font-family: 'danielbold'
-
-@media only screen and (max-width: $sm)
-	.top-photo__text
-		margin-left: 15px
 </style>
