@@ -1,6 +1,8 @@
 # faurecia-site
 
-> Faurecia site with nuxt.js
+> Faurecia website made with **nuxt.js**
+
+> Hosted on **[Netlify](https://determined-wiles-d0a894.netlify.com/#)**
 
 ## Build Setup
 
