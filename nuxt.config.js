@@ -2,6 +2,9 @@ import pkg from './package'
 
 export default {
 	mode: 'spa',
+	router: {
+		fallback: true
+	},
 	head: {
 		title: pkg.name,
 		meta: [
@@ -23,9 +26,6 @@ export default {
 		'~/assets/custom.sass',
 		'aos/dist/aos.css'
 	],
-	plugins: [
-		'@/plugins/aos.js'
-	],
 	modules: [
 		'@nuxtjs/axios',
 		'bootstrap-vue/nuxt',
@@ -44,6 +44,9 @@ export default {
 	axios: {
 		// See https://github.com/nuxt-community/axios-module#options
 	},
+	plugins: [
+		'@/plugins/aos.js'
+	],
 	build: {
 		extend(config, ctx) {
 			if (ctx.isDev && ctx.isClient) {
