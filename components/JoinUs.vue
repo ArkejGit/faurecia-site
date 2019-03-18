@@ -1,11 +1,11 @@
 <template>
 	<section class="join-us">
-		<div class="container">
+		<div class="container" data-aos="fade">
 			<h1>Dołącz do nas</h1>
 			<Form />
 		</div>
-		<img class="car-image" src="~assets/car.svg" alt="">
-		<img class="arm-image" src="/arm.png" alt="">
+		<img class="car-image" src="~assets/car.svg" alt="" data-aos="fade-right">
+		<img class="arm-image" src="/arm.png" alt="" data-aos="fade-left">
 	</section>
 </template>
 

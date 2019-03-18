@@ -2,7 +2,7 @@
 	<section class="about-us">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-lg-4 col-xl-3">
+				<div class="col-12 col-lg-4 col-xl-3" data-aos="fade">
 					<h1>Kim jesteśmy?</h1>
 					<p>Jesteśmy jednym ze światowych liderów w branży motoryzacyjnej. Działamy w 34 krajach tworząc ponad 100 tysięcy miejsc pracy w 300 zakładach produkcyjnych i 30 ośrodkach badawczo-rozwojowych na świecie.</p>
 					<p>Specjalizujemy się w projektowaniu i produkcji Specjalizujemy się w projektowaniu i produkcji elementów wyposażenia samochodowego w trzech kluczowych dziedzinach:</p>
@@ -44,14 +44,12 @@ export default {
 
 .tile:nth-child(2)
 	color: $blue
-	left: 60%
-	transform: translateX(-50%)
+	left: 46%
 	bottom: 0
 
 .tile:nth-child(3)
 	color: $pink
-	top: 50%
-	transform: translateY(-50%)
+	top: 25%
 	right: 5%
 	z-index: 1
 

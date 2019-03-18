@@ -1,5 +1,5 @@
 <template>
-	<div class="tile">
+	<div class="tile" data-aos="zoom-in">
 		<img :src="require(`@/assets/${image}`)" alt="">
 		<h2>{{ title }}</h2>
 	</div>

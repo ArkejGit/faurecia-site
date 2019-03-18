@@ -19,8 +19,12 @@ export default {
 		color: '#c3136a',
 		background: 'white'
 	},
-	css: [],
+	css: [
+		'~/assets/custom.sass',
+		'aos/dist/aos.css'
+	],
 	plugins: [
+		'@/plugins/aos.js'
 	],
 	modules: [
 		'@nuxtjs/axios',

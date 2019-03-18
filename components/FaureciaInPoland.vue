@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="d-none d-lg-block col-lg-3">
-					<ul>
+					<ul data-aos="fade">
 						<li data-city="grojec">Grójec</li>
 						<li data-city="grojec">Grójec i Wałbrzych R&D</li>
 						<li data-city="gorzow">Gorzów Wielkopolski</li>
@@ -12,7 +12,7 @@
 						<li data-city="walbrzych">Wałbrzych</li>
 						<li data-city="lodz">Łódź IT Support</li>
 					</ul>
-					<div class="poland-dotted-container">
+					<div class="poland-dotted-container" data-aos="fade">
 						<img class="poland-dotted" src="/poland-dotted.jpg" alt="">
 						<div class="dot" data-top="51.8%" data-left="67.3%" data-city="grojec"></div>
 						<div class="dot" data-top="30.05%" data-left="12%" data-city="gorzow"></div>
@@ -23,8 +23,8 @@
 					</div>
 				</div>
 				<div class="image-container col-12 col-lg-9">
-					<img src="/faurecia-in-poland.jpg" alt="">
-					<div class="image-desc">
+					<img src="/faurecia-in-poland.jpg" alt="" data-aos="fade">
+					<div class="image-desc" data-aos="fade-left">
 						<h1>Faurecia w Polsce</h1>
 						<p>Działamy w Polsce już od 20 lat i pracujemy w 9 zakładach produkcyjnych, a także w ramach dwóch zespołów R&D, Centrum Księgowo-Finansowego oraz Centrum Wsparcia IT.: W Polsce ulokowane są również funkcje wspierające globalne procesy, takie jak zakupy, zarządzanie łańcuchem dostaw, zarządzanie programami i inne.</p>
 					</div>
